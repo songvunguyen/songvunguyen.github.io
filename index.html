@@ -1,45 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Untitled Document</title>
-<!-- Bootstrap -->
-<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
-<link href="css/custom.css" rel="stylesheet">
-<style type="text/css">
-body, td, th {
-    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-</style>
-</head>
-<body style="padding-top: 70px">
-<!-- body code goes here -->
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-    <ul class="navbar-nav mx-auto">
-	      <li class="nav-item active underline_hover"> <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> </li>
-	      <li class="nav-item underline_hover"> <a class="nav-link" href="#">About</a> </li>
-		<li class="nav-item underline_hover"> <a class="nav-link" href="#">Works</a> </li>
-	      <li class="nav-item dropdown underline_hover"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Links </a>
-	        <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item" href="https://www.linkedin.com/in/song-vu-nguyen" target="_blank">LinkedIn</a>
-	          <div class="dropdown-divider"></div>
-	          <a class="dropdown-item " href="https://songvunguyen.itch.io/" target="_blank">Itch.io</a> 
-			  <a class="dropdown-item " href="https://github.com/songvunguyen" target="_blank">Github</a> </div>
-			  
-          </li>
-		<li class="nav-item underline_hover"> <a class="nav-link" href="#">Contact</a> </li>
-    </ul>
-</div>
-</nav>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Song Vu's Website</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!-- CSS -->
+    <link href="css/custom.css" rel="stylesheet" />
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+      body,
+      td,
+      th {
+        font-family: "Open Sans", Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      }
+    </style>
+  </head>
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-<script src="js/jquery-3.4.1.min.js"></script> 
+  <body style="padding-top: 70px">
+    <!-- body code goes here -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top bg-dark" data-bs-theme="dark">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item underline_hover">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item underline_hover">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item underline_hover">
+              <a class="nav-link" href="#">Works</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Links
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="https://www.linkedin.com/in/song-vu-nguyen" target="_blank">LinkedIn</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="https://songvunguyen.itch.io/" target="_blank">Itch.io</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="https://github.com/songvunguyen" target="_blank">Github</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item underline_hover">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+   
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.6.4.min.js"></script>
 
-<!-- Include all compiled plugins (below), or include individual files as needed --> 
-<script src="js/popper.min.js"></script> 
-<script src="js/bootstrap-4.4.1.js"></script>
-</body>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>

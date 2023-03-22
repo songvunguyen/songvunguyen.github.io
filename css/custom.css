@@ -2,5 +2,10 @@
 /* CSS Document */
 
 .underline_hover:hover{
-	text-decoration: underline;
+	text-decoration: underline 3px white;
+}
+
+.navbar-nav > li{
+	margin-left:30px;
+	margin-right:30px;
 }
