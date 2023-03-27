@@ -9,8 +9,9 @@
   background-position: center;
   background-size: cover;
 }
-.underline_hover:hover {
-  text-decoration: underline 3px white;
+
+.navbar-nav>li>a:focus, .navbar-nav>li>a:hover{
+  background-color: #0d6efd;
 }
 
 .navbar-nav > li {
@@ -20,6 +21,7 @@
 
 #intro {
   margin: auto;
+  font-size: 2vw;
 }
 
 .page {
