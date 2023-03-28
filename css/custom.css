@@ -1,5 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
+
 .bg_image {
   background-image: url("../image/motherboard_background.png");
   width: 100%;
@@ -19,13 +20,23 @@
   margin-right: 30px;
 }
 
-#intro {
+#intro, #comm {
   margin: auto;
   font-size: 2vw;
+}
+
+#myCarousel{
+  margin: auto;
 }
 
 .page {
   min-height: 100vh;
   padding-top: 50px;
   display: flex;
+}
+
+.carousel-inner > .carousel-item{
+  height: 75vh;
+  width: 75vw;
+  object-fit: cover;
 }
