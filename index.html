@@ -7,6 +7,7 @@
     <title>Song Vu's Website</title>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <!-- CSS -->
     <link href="css/custom.css" rel="stylesheet" />
     <style type="text/css">
@@ -199,44 +200,93 @@
     </div>
 
     <div class="container-fluid page" id="work">
-      <p>Hi, my name is</p>
-      <p>Song Vu Nguyen</p>
-      <p>I am a computer engineer</p>
+      <div class="table-responsive" id="myTable">
+        <h1 style="text-align: center; margin-bottom: 50px;">List of my Project</h1>
+        <table class="table border-dark table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">Category</th>
+              <th scope="col">Project Description</th>
+              <th scope="col">Link</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="2">University Projects</td>
+              <td>JRPG Game</td>
+              <td><a href="https://github.com/JMOatey/CapstoneProject" target="_blank">Github</a></td>
+            </tr>
+            <tr>
+              <td>Photo-to-Sketch Conversion</td>
+              <td><a href="https://github.com/HO-COOH/CS4650-Project" target="_blank">Github</a></td>
+            </tr>
+
+            <tr>
+              <td rowspan="3">Web Dev Projects</td>
+              <td>Rock-Paper-Scissors</td>
+              <td><a href="https://github.com/songvunguyen/rock-paper-scissors" target="_blank">Github</a></td>
+            </tr>
+            <tr>
+              <td>Etch-a-Sketch</td>
+              <td><a href="https://github.com/songvunguyen/Etch-a-Sketch" target="_blank">Github</a></td>
+            </tr>
+            <tr>
+              <td>Calculator</td>
+              <td><a href="https://github.com/songvunguyen/calculator" target="_blank">Github</a></td>
+            </tr>
+
+            <tr>
+              <td rowspan="4">Game Dev Projects</td>
+              <td>Pong like game</td>
+              <td><a href="https://github.com/songvunguyen/PP" target="_blank">Github</a></td>
+            </tr>
+            <tr>
+              <td>Snake like game</td>
+              <td><a href="https://github.com/songvunguyen/SnakeG" target="_blank">Github</a></td>
+            </tr>
+            <tr>
+              <td>Alien Blaster game</td>
+              <td><a href="https://github.com/songvunguyen/AlienB" target="_blank">Github</a></td>
+            </tr>
+            <tr>
+              <td>2D Platformer game</td>
+              <td><a href="https://github.com/songvunguyen/ProjectRunway" target="_blank">Github</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
 
     <div class="container-fluid page" id="contact">
       <div id="comm">
         <h1 style="font-size: 300%">How you can reach me</h1>
         <div class="row">
-          <div class="col-sm-4 mb-3 mb-sm-0">
-            <div class="card">
+          <div class="col-4">
+            <div class="card h-100">
               <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
+                <h1 class="card-title"><i class="bi bi-envelope-at-fill"></i></h1>
                 <p class="card-text">
-                  With supporting text below as a natural lead-in to additional
-                  content.
+                  songvuknguyen@gmail.com
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-sm-4">
-            <div class="card">
+          <div class="col-4">
+            <div class="card h-100">
               <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
+                <h1 class="card-title"><i class="bi bi-discord"></i></h1>
                 <p class="card-text">
-                  With supporting text below as a natural lead-in to additional
-                  content.
+                  @SVK#4275
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-sm-4">
-            <div class="card">
+          <div class="col-4">
+            <div class="card h-100">
               <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
+                <h1 class="card-title"><i class="bi bi-geo-alt-fill"></i></h1>
                 <p class="card-text">
-                  With supporting text below as a natural lead-in to additional
-                  content.
+                  Pittsburgh, PA
                 </p>
               </div>
             </div>

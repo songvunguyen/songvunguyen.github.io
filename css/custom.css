@@ -20,12 +20,16 @@
   margin-right: 30px;
 }
 
-#intro, #comm {
-  margin: auto;
-  font-size: 2vw;
+#contact{
+  text-align: center;
 }
 
-#myCarousel{
+#intro, #comm {
+  margin: auto;
+  font-size: 1.5vw;
+}
+
+#myCarousel, #myTable{
   margin: auto;
 }
 
