@@ -19,7 +19,9 @@
   background-size: cover;
 }
 
-.navbar-nav>li>a:focus, .navbar-nav>li>a:hover, .navbar-nav>li>a.active{
+.navbar-nav > li > a:focus,
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a.active {
   text-decoration: underline;
   text-decoration-thickness: 3px;
   text-underline-offset: 4px;
@@ -31,26 +33,18 @@
   margin-right: 30px;
 }
 
-#contact{
-  text-align: center;
-}
-
-#intro, #comm {
-  margin: auto;
-  font-size: 1.5vw;
-}
-
-#myCarousel, #myTable{
-  margin: auto;
-}
-
 .page {
   min-height: 100vh;
   padding-top: 50px;
   display: flex;
 }
 
-.carousel-inner > .carousel-item{
+/* Make object center within div */
+.center-div {
+  margin: auto;
+}
+
+.carousel-inner > .carousel-item {
   height: 75vh;
   width: 75vw;
   object-fit: cover;
