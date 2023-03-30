@@ -49,3 +49,7 @@
   width: 75vw;
   object-fit: cover;
 }
+
+.carousel-caption{
+  color: black;
+}
